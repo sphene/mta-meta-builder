@@ -1,0 +1,24 @@
+{
+  "name": "@sphene/mta-meta-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Meta.xml builder for Multi Theft Auto",
+  "author": "Sphene",
+  "main": "lib/builder.js",
+  "bin": {
+    "mta-meta-builder": "./bin/mta-meta-builder.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sphene/mta-meta-builder/issues"
+  },
+  "homepage": "https://github.com/sphene/mta-meta-builder#readme",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sphene/mta-meta-builder.git"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "xmlbuilder2": "^3.0.2"
+  }
+}
